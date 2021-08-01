@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+ }
+
+ html, body{
+    scroll-behavior: smooth;
+    background-image: url(../img/teste2.jpg);
+ }
+
+body header{
+    display: flex;
+    justify-content: center;
+ }
+/*
+ body header img#logo {
+     width: 15%;
+     padding: 1rem;
+ }*/
+
+
+body section#sobre-mim{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    flex-wrap: wrap;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+}
+
+body section#sobre-mim img#eu{
+    width: 100%;
+    max-width: 200px;
+    padding: 1vw 3vw;
+    border-radius: 50%;
+}
+
+body section#sobre-mim h1{
+    width: 100%;
+    color: linen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 3vw 0vw 3vw; 
+    font-size: 100%;
+    flex-wrap: wrap;
+}
+
+
+body section#intro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0, 0.753);
+    padding: 1vw;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+}
+
+body section#intro p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: linen; 
+    padding: 2.5vw;        
+}
+
+body section#intro p span{   
+    padding-top: 1.3vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 100%;}
+
+
+section#botões{
+    padding: 0vw 3vw;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+    background-color: rgb(0, 0, 0, 0.753);
+}
+
+section#botões div{
+    padding: 1vw;
+}
+
+section#botões div#site.d-grid.gap-2 button.btn.btn-outline-warning:hover{
+    transition:ease-in 0.8s;
+    transform: scale(1.05);
+}
+
+section#botões div#zap.d-grid.gap-2 button.btn.btn-outline-success:hover{
+    transition:ease-in 0.8s;
+    transform: scale(1.05);
+}
+
+section#botões div#facebook.d-grid.gap-2 button.btn.btn-outline-primary:hover{
+    transition:ease-in 0.8s;
+    transform: scale(1.05);
+}
+
+section#botões div#instagram.d-grid.gap-2 button.btn.btn-outline-danger:hover{
+    transition:ease-in 0.8s;
+    transform: scale(1.05);
+}
+
+section#botões div#mail.d-grid.gap-2 button.btn.btn-outline-light:hover{
+    transition:ease-in 0.8s;
+    transform: scale(1.05);
+}
