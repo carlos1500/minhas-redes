@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+:root{
+    --bg-color: rgba(0, 0, 0, 0.795);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +30,7 @@ body header{
 body section#sobre-mim{
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: var(--bg-color);
     flex-wrap: wrap;
     margin: 0px auto;
     height: 100%;
@@ -57,7 +61,7 @@ body section#intro{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(0, 0, 0, 0.753);
+    background-color: var(--bg-color);
     padding: 1vw;
     margin: 0px auto;
     height: 100%;
@@ -71,11 +75,11 @@ body section#intro p{
     text-align: center;
     flex-wrap: wrap;
     color: linen; 
-    padding: 2.5vw;        
+    padding: 2.5vw;       
 }
 
 body section#intro p span{   
-    padding-top: 1.3vw;
+    padding-top: 2.5vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -89,7 +93,8 @@ section#botões{
     height: 100%;
     width: 100%;
     max-width: 680px;
-    background-color: rgb(0, 0, 0, 0.753);
+    background-color: var(--bg-color);
+    
 }
 
 section#botões div{
